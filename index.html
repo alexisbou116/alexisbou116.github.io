@@ -1,219 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>White Mountains</title>
-    <meta charset="utf-8">
-    <!-- link to the external CSS file for font awesome icon library -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>Mac Miller</title>
+	<meta charset="UTF-8">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #dbeaff;
+			font-family: sans-serif;
+			margin: auto;
+			color:#243e6b;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			color:#5d719f;
+		}
 
+		.main-header{
+			background: url("imgs/mac-flowers.jpg") top;
+			height: 500px;
+			background-size: cover;
+			margin:0px;
+		}
+		.nav-div{
+			margin:auto;
+			display:flex;
+		}
+		.nav-bar{
+			list-style-type: none;
+			display:flex;
+			margin-left: 61%;
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+		}
+		.nav-bar-link{
+			padding: 10px;
+			font-size: 16px;
+			color:#c5dfff;
 
-        body {
-            color: #878787;
-            margin: 0;
-            font-family: sans-serif;
-            text-align: center;
-        }
+		}
+		.main-header-title{
+			font-size: 40px;
+			color:#c5dfff;
+			text-align:center;
+			margin-left:16%;
 
-        img {
-            max-width: 100%;
-        }
-
-        a {
-            text-decoration: none;
-        }
-        div {
-            text-align: center;
-        }
-
-        .nav-header {
-            background: #f0f5f5;
-            height:100px;
-            display:flex;
-        }
-
-        .nav-div {
+		}
+		.text{
+			margin:20px;
+			font-size:18px;
+			text-align: left;
+		}
+		.intro{
+			margin-bottom: 20px;
+		}
+		.box {
             margin: auto;
             display:flex;
-        }
-
-        .logo-img {
-            width: 120px;
-            margin-left: 20px;
-        }
-
-        .search-icon {
-            margin: 30px;
-        }
-
-        .nav-bar {
-            list-style-type: none;
-            display:flex;
-        }
-
-        .nav-bar-link {
-            color: #878787;
-            font-size: 24px;
-            padding: 20px;
-        }
-
-        .main-header {
-            background: url("img/whitemountain2.jpg") top;
-            background-size: cover;
-            height: 300px;
-        }
-
-        .main-header-title {
-            font-size: 2.5em;
-            color: #f7f8f9;
-            text-transform: uppercase;
-            font-weight: normal;
-            padding-left: 75px;
-            text-shadow: 2px 2px 5px darkgrey;
-            margin-top:0px;
-        }
-
-        .main-header-intro {
-            line-height: 1.5em;
-            width: 50%;
-            margin: auto;
-            padding: 40px;
-            color: #333333;
-        }
-
-        .intro {
-            width: 60%;
-            margin: auto;
-        }
-
-        .button {
-            display: block;
-            background-color: #66cc66;
-            color: white;
-            padding:10px;
-            margin-left: 325px;
-            margin-right: 325px;
-            border-radius: 3px;
-            box-shadow:2px 2px gray;
-        }
-
-        .box {
-            width: 80%;
-            margin: auto;
-            display:flex;
+            width:100%;
+            justify-content: center;
         }
 
         .card {
-            width: 100%;
+            width: 25%;
             padding: 20px;
-            background-color: #f0f5f5;
-            border:1px solid;
+            background-color: #eeeff9;
+            border:5px solid;
+            border-color:#4a5d70;
             margin: 10px;
-            border-radius:5px;
-            box-shadow:2px 2px gray;
+            border-radius:7px;
             margin-bottom:30px;
-        }
-
-        .footer {
-            height: 40px;
-            background: #f0f5f5;
-            padding: 5px;
-        }
-        .logo-img{
             text-align: center;
         }
+        .button{
+        	display: block;
+            background-color:#4a5d70;
+            color: #eeeff9;
+            padding-top:10px;
+            padding-bottom: 10px;
+            margin-left: 45%;
+            margin-right: 45%;
+            border-radius: 5px;
+            text-align:center;
+            margin-bottom:45px;
+            
+        }
+        .link-title{
+        	text-align: center;
+        	font-size:18px;
+        	margin-top:50px;
+        	margin-bottom:30px;
+        }
+        .footer{
+        	text-align: center;
+        	font-size:18px;
+        	margin-top:30px;
+        	margin-bottom:75px;
+        }
+        .header{
+        	color:#243e6b;
+			font-size:30px;
+			margin:20px;
+        }
 
-    </style>
+
+
+
+	</style>
 </head>
-
 <body>
-    <div class="nav-header">
-        <img class="logo-img" src="img/visit-white-mountains-logo.png" alt="Visit White Mountains logo">
-        <div class="nav-div">
+
+	<div class= main-header>
+		<div class="nav-div">
             <ul class="nav-bar"> 
                 <li class="nav-bar-list"><a
-                class="nav-bar-link" href="#">Home</a></li>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="#">Explore More</a></li>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="#">Contact Us</a></li>
+                class="nav-bar-link" href="index.html">Home</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="favorites.html"> Personal Favorites</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="#">Mac Miller's Journey</a></li>
             </ul>
         </div>
-        <div class="search-icon">
-            <i class="fas fa-search fa-2x"></i>
-        </div>
-    </div>
+		<div class= main-header-title> <strong>Mac Miller and How His Music Soothes My Soul</strong>
+		</div>
+	</div>
+	<div class=header><strong>The Start</strong>
+	</div>
+	<div class=text>
+		<div class=intro>I've been listening to Mac Miller for a long time without even realizing it. I've heard his songs on the radio but never really knew who he was or really got into his music until January 2020 when my boyfriend and I were driving to Maine for my dad's funeral and he suggested we listen to his newly released album, Circles. Ever since then I've listened to Mac's music almost religiously.It started with the album Circles for a couple months until I started to branch out to some of his other music and albums including Swimming and GO:OD AM. These albums help me relax, feel good, calm down, and feel peace. It's helpful that some of the songs I can relate to on a personal level.
+		</div>
 
-    <div class="main-header">
-        <h1 class="main-header-title">White Mountains</h1>
-        <div class="main-header-intro">
-            White Mountains region is one of the most breathtaking attractions located in New Hampshire. It is home to a large number of hiking trails and ski areas with spectacular sceneary!
-        </div>
-    </div>
+		<div>As a delivery driver, and someone who loves to drive in general, I spend a lot of time in the car listening to music. It's a form of therapy for me. When I'm feeling particularly anxious, stressed, or tense, I turn up my Mac playlist. In my car I have the speakers adjusted to have the bass be prominent and when I play my music, especially Mac Miller, I love feeling the bass in my core and chest. It soothes me completely.
+		</div>
+	</div>
+	
+	<div class=link-title>This link takes you to Mac Miller's website where you can shop for:
+	</div>
+	<a href="https://www.macmillerswebsite.com/" class=button>Mac Miller's Website</a>
+	
 
-    <h2>Experience winter in bold new ways!</h2>
-    <div class="intro">
-        <p> Whether you dream of conquering fresh powder, riding a new trail, or making unforgettable memories with your family, you can do it all and more in New Hampshire. Plan your winter getaway.
-        </p>
-        <a href="http://www.google.com" class="button"> Explore </a>
-    </div>
+	<div class=box>
+		<div class=card>
+			<h2>Apparel</h2>
+			<img src="imgs/mac-hoodie.jpg" alt="Hat" width="200" height="200">
+		</div>
+		<div class=card>
+			<h2>CDs</h2>
+			<img src="imgs/mac-cd.jpg" alt="CD" width="200" height="200">
+		</div>
+		<div class=card>
+			<h2>Vinyl</h2>
+			<img src="imgs/mac-vinyl.jpg" alt="Vinyl" width="200" height="200">
+		</div>
+	</div>
 
-    <div class="box">
-        <div class="card">
-            <img src="img/resort.jpg" alt="Resort">
-            <h3>Where to Stay</h3>
-            <p>
-                The White Mountains of New Hampshire has a wealth of accomodations to suit every need and taste. Everything from Grand Resorts to quiet campgrounds in the midst of our beautiful natrual beauty.
-            </p>
-            <ul>
-                <li><a href="#">Lodging</a></li>
-                <li><a href="#">Camping</a></li>
-                <li><a href="#">Real Estate</a></li>
-            </ul>
-        </div>
-        <!-- End of class .card -->
+	<div class=footer> as well as give to the Mac Miller Fund which helps support young musicians.</div>
+	
 
-        <div class="card">
-            <img src="img/mountain.jpg" alt="Mountain">
-            <h3>What to bring</h3>
-            <p>
-                One of most important things when it comes to hiking in the great outdoors is packing accordingly. Here are a few tips:
-            </p>
-            <ol>
-                <li>Bring layers of clothing</li>
-                <li>Pack sunscreen and bug spray</li>
-                <li>Carry extra water just in case</li>
-                <li>Pack light</li>
-            </ol>
-        </div>
-        <!-- End of class .card -->
-
-        <div class="card">
-            <img src="img/food.jpg" alt="Mountain">
-            <h3>Where to eat</h3>
-            <p>
-                The white mountain region has a wide variety of eataries. All offering their own unique taste!
-            </p>
-            <ul>
-                <li>Peach's Restaurant</li>
-                <li>Muddy Moose Restaurant and Pub</li>
-                <li>Abenaki Trail Restaurant and Pub</li>
-            </ul>
-        </div>
-        <!-- End of class .card -->
-
-    </div>
-    <!-- End of class .box -->
-
-    <div class="footer">
-        <i class="fab fa-facebook-square fa-2x"></i>
-        <i class="fab fa-twitter-square fa-2x"></i>
-        <i class="fab fa-flickr fa-2x"></i>
-        <i class="fas fa-chess fa-2x"></i>
-        <i class="fas fa-certificate fa-2x"></i>
-    </div>
+<!-- My name is Alexis Boucouvalas and this is a fan page of sorts for Mac Miller. I completed this page February 9, 2021 at 12:24pm. -->
 </body>
-
 </html>
