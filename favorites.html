@@ -4,6 +4,7 @@
     <title>Mac Miller</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 
 	<style>
 		* {
@@ -35,19 +36,20 @@
 		.nav-bar{
 			list-style-type: none;
 			display:flex;
-			margin-left: 61%;
+			margin-left: 60%;
 
 		}
 		.nav-bar-link{
 			padding: 10px;
 			font-size: 16px;
 			color:#c5dfff;
+			width:100%;
 
 		}
 		.main-header-title{
 			font-size: 40px;
 			color:#c5dfff;
-			margin-left:60%;
+			margin-left:64%;
 		}
 		
 		.top-10{
@@ -96,6 +98,56 @@
             margin-bottom:30px;
             text-align: center;
 		}
+		 .listen{
+            display:inline-flex;
+            margin-bottom:50px;
+            margin-left:47%;
+
+        }
+        .spotify{
+            color:#4a5d70;
+            padding-top:12px;
+
+        }
+        .listen-now{
+            font-size:20px;
+            padding-right:8px;
+        }
+         @media only screen and (max-width: 768px){
+            body{
+                justify-content: center;
+                text-align: center;
+            }
+            .nav-bar-list{
+                background-color:#243e6b;
+                margin:0.75%;
+                text-align: center;
+                width:650px;
+                height:50px;
+                padding-top:5px;
+            }
+            .nav-bar {
+                flex-direction: column;
+                display:flex;
+                padding-top:15px;
+                margin:auto;
+                padding-left:0%;
+            }
+
+            .main-header-title{
+                text-align: center;
+                padding-top:15%;
+                width:650px;
+                margin:auto;
+            }
+            .song-list{
+            	margin-left:0%;
+            }
+            .listen{
+            	margin-left:2%;
+            }
+		 
+
 		 @media only screen and (max-width: 600px){
         	
         	body{
@@ -144,8 +196,39 @@
         	.song-list{
         		margin-left:18%;
         	}
+        	.listen{
+        		margin-left:2%;
+        	}
 		
 		 }
+		 @media only screen and (max-width: 550px) {
+            body{
+                justify-content:center;
+                text-align:center;
+            }
+            .nav-bar-list{
+                background-color:#243e6b;
+                text-align:center;
+                height:50px;
+                width:450px;
+            }
+            .nav-bar{
+                flex-direction:column;
+                display:flex;
+                margin:auto;
+                padding-top:15px;
+            }
+
+            .main-header-title{
+                text-align:center;
+                width:450px;
+                padding-top:30%;
+                margin:auto;
+            }
+            .box{
+            	padding-left:5%;
+            }
+
 		 @media only screen and (max-width: 480px){
 
         	body{
@@ -156,20 +239,23 @@
         		background-color:#243e6b;
         		text-align:center;
         		height:50px;
-        		padding-top:5px;
-        		width:400px;
+        		width:380px;
         	}
         	.nav-bar{
         		flex-direction:column;
         		display:flex;
+                margin:auto;
+                padding-top:15px;
         	}
         	.main-header-title{
         		text-align:center;
-        		width:400px;
-        		margin-top:30%;
+        		width:380px;
+        		padding-top:25%;
+                margin:auto;
         	}
+        	
         	.box{
-        		padding-left:20px;
+        		padding-left:5%;
         	}
 
         }	
@@ -189,14 +275,16 @@
         	.nav-bar{
         		flex-direction:column;
         		display:flex;
+        		margin:auto;
         	}
         	.main-header-title{
         		text-align:center;
         		width:350px;
-        		margin-top:40%;
+        		padding-top:30%;
+        		margin:auto;
         	}
         	.box{
-        		padding-left:20px;
+        		padding-left:5%;
         	}
 
         
@@ -211,6 +299,7 @@
                 class="nav-bar-link" href="index.html">Home</a></li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="favorites.html"> Personal Favorites</a></li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="journey.html">Mac Miller's Journey</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="foundation.html">Donate</a></li>
             </ul>
         </div>
 		<div class= "main-header-title"> <strong>My Personal Favorites</strong>
@@ -239,6 +328,10 @@
 			<div class="album-text">The two albums that truly speak to me and soothe my soul are his two most recent albums: Circles (2020) and Swimming (2018). When I'm not in my car listening to these albums, I turn on my record player and listen that way. I'm lucky enough to have gotten the vinyl box set that was released in December 2020 called Swimming in Circles. This box set includes vinyl for both the Swimming and Circles albums, booklet of archival images from the making of Swimming and Circles, a 24" x 36" poster, and a 6-panel lyric scroll. My boyfriend was able to snag the set for me for christmas and I now listen to them all the time.</div>
 		</div>
 	</div>
+	<div class=listen>
+        <p class=listen-now>Listen Now</p>
+        <a href="https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U" class=spotify><i class= "fab fa-spotify fa-2x"></i></a>
+    	</div>
 
 
 
