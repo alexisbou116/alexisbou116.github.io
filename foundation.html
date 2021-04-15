@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mac Miller</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #dbeaff;
+			font-family: sans-serif;
+			margin:auto;
+			color:#243e6b;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			color:#5d719f;
+		}.main-header{
+			background: url("imgs/mac-smile.jpg") top;
+			height: 500px;
+			background-size: cover;
+			margin:0%;
+		}
+		.nav-div{
+			margin:auto;
+			display:flex;
+		}
+		.nav-bar{
+			list-style-type: none;
+			display:flex;
+			margin-left: 60%;
+
+		}
+		.nav-bar-link{
+			padding: 10px;
+			font-size: 16px;
+			color:#c5dfff;
+            width:100%;
+
+		}
+		.main-header-title{
+			font-size: 40px;
+			color:#c5dfff;
+			text-align:right;
+			margin-left:56%;
+            width:40%;
+
+		}
+		.text{
+			margin:20px;
+			font-size:18px;
+			text-align: center;
+			margin-bottom:50px;
+		}
+		 .header{
+        	color:#243e6b;
+			font-size:30px;
+			margin:20px;
+			text-align: center;
+        }
+        .img{
+        	max-width: 100%;
+        }
+        .button{
+        	display: block;
+            background-color:#4a5d70;
+            color: #eeeff9;
+            padding-top:10px;
+            padding-bottom: 10px;
+            margin-left: 35%;
+            margin-right: 35%;
+            border-radius: 5px;
+            text-align:center;
+            margin-bottom:45px;
+            font-size: 40px;
+            justify-content: center;
+        }
+         .listen{
+            display:inline-flex;
+            margin-bottom:50px;
+            margin-left:47%;
+
+        }
+        .spotify{
+            color:#4a5d70;
+            padding-top:12px;
+
+        }
+        .listen-now{
+            font-size:20px;
+            padding-right:8px;
+        }
+		@media only screen and (max-width: 768px){
+            body{
+                justify-content: center;
+                text-align: center;
+            }
+            .nav-bar-list{
+                background-color:#243e6b;
+                margin:0.75%;
+                text-align: center;
+                width:650px;
+                height:50px;
+                padding-top:15px;
+            }
+            .nav-bar {
+                flex-direction: column;
+                display:flex;
+                padding-top:15px;
+                margin:auto;
+                padding-left:0%;
+            }
+
+            .main-header-title{
+                text-align: center;
+                padding-top:5%;
+                width:650px;
+                margin:auto;
+            }
+            .listen{
+            	margin-left:2%;
+            }
+            .button{
+            	margin-left:20%;
+            	margin-right:20%;
+            }
+
+        @media only screen and (max-width: 600px){
+        	
+        	body{
+        		justify-content: center;
+        		text-align: center;
+        	}
+        	.nav-bar-list{
+        		background-color:#243e6b;
+        		margin:0.75%;
+        		text-align: center;
+        		width:500px;
+        		height:50px;
+        		padding-top:15px;
+        	}
+        	.nav-bar {
+        		flex-direction: column;
+        		display:flex;
+                padding-top:15px;
+                margin:auto;
+                padding-left:0%;
+        	}
+
+        	.main-header-title{
+        		text-align: center;
+        		padding-top:10%;
+        		width:500px;
+        		margin:auto;
+        	}
+        	.listen{
+        		margin-left:2%;
+        	}
+        	.button{
+        		margin-left:20%;
+        		margin-right:20%;
+        	}
+
+        	@media only screen and (max-width: 550px) {
+            body{
+                justify-content:center;
+                text-align:center;
+            }
+            .nav-bar-list{
+                background-color:#243e6b;
+                text-align:center;
+                height:50px;
+                width:450px;
+            }
+            .nav-bar{
+                flex-direction:column;
+                display:flex;
+                margin:auto;
+                padding-top:15px;
+            }
+            .main-header-title{
+                text-align:center;
+                width:350px;
+                padding-top:4%;
+                margin:auto;
+             }
+             .button{
+             	margin-left:20%;
+             	margin-right:20%;
+             }
+
+
+            @media only screen and (max-width: 480px){
+
+        	body{
+        		justify-content:center;
+        		text-align:center;
+        	}
+        	.nav-bar-list{
+        		background-color:#243e6b;
+        		text-align:center;
+        		height:50px;
+        		width:380px;
+        	}
+        	.nav-bar{
+        		flex-direction:column;
+        		display:flex;
+                margin:auto;
+                padding-top:15px;
+        	}
+        	.main-header-title{
+        		text-align:center;
+        		width:380px;
+        		padding-top:5%;
+                margin:auto;
+        	}
+        	.button{
+        		margin-left:15%;
+        		margin-right:15%;
+        	}
+        	@media only screen and (max-width: 400px){
+
+            body{
+                justify-content:center;
+                text-align:center;
+            }
+            .nav-bar-list{
+                background-color:#243e6b;
+                text-align:center;
+                height:50px;
+                padding-top:15px;
+                width:350px;
+            }
+            .nav-bar{
+                flex-direction:column;
+                display:flex;
+                margin:auto;
+            }
+            .main-header-title{
+                text-align:center;
+                width:350px;
+                padding-top:10%;
+                margin:auto;
+            }
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class= main-header>
+		<div class="nav-div">
+            <ul class="nav-bar"> 
+                <li class="nav-bar-list"><a
+                class="nav-bar-link" href="index.html">Home</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="favorites.html"> Personal Favorites</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="journey.html">Mac Miller's Journey</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="foundation.html">Donate</a></li>
+            </ul>
+        </div>
+		<div class= main-header-title> <strong>Mac Miller and How His Music Soothes My Soul</strong>
+		</div>
+	</div>
+	<div class=header><strong>The Mac Miller Fund</strong>
+	</div>
+	<div class=text>
+		<div class=intro>The Mac Miller Fund is based in Pittsbourgh and was founded in 2018 shortly after Mac's death. This fund is his legacy and it supports young artists through their exploration of music and arts by teaching kids how to read and write music as well as play instruments. The fund also has a pledge to fight substance abuse in the music industry. Mac Miller wanted to create beautiful art for the world and make it a better place. By donating, you're helping his dream become a reality.</div>
+	</div>
+
+	<a href="https://pittsburghfoundation.org/macmiller" class=button>Donate Now</a>
+
+	<div class=listen>
+        <p class=listen-now>Listen Now</p>
+        <a href="https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U" class=spotify><i class= "fab fa-spotify fa-2x"></i></a>
+    </div>
+</body>
