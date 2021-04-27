@@ -5,332 +5,32 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-
-	<style>
-		* {
-			box-sizing: border-box;
-		}
-		body{
-			background-color: #dbeaff;
-			font-family: sans-serif;
-			margin:auto;
-			color:#243e6b;
-		}
-		a{
-			text-decoration: none;
-		}
-		a:hover{
-			color:#c5dfff;
-		}
-		
-		.main-header{
-			background: url("imgs/mac-shades.jpg") top;
-			height: 500px;
-			background-size: cover;
-			margin:0%;
-		}
-		.nav-div{
-			margin:auto;
-			display:flex;
-		}
-		.nav-bar{
-			list-style-type: none;
-			display:flex;
-			margin-left: 60%;
-
-		}
-		.nav-bar-link{
-			padding: 10px;
-			font-size: 16px;
-			color:#c5dfff;
-			width:100%;
-
-		}
-		.main-header-title{
-			font-size: 40px;
-			color:#c5dfff;
-			text-align:center;
-			margin-left:59.5%;
-			width:40%;
-
-		}
-		.text{
-			margin:20px;
-			font-size:18px;
-			text-align: left;
-		}
-		.header{
-        	color:#243e6b;
-			font-size:30px;
-			margin-top:20px;
-			margin-bottom:20px;
-		}
-		.intro{
-			margin-bottom:50px;
-		}
-		.breakthrough{
-			margin-bottom:50px;
-		}
-		.box-title{
-			color:#243e6b;
-			font-size:30px;
-			text-align:center;
-		}
-		.box {
-            margin: auto;
-            display:flex;
-            width:100%;
-            justify-content: center;
-        }
-
-        .card{
-            width: 35%;
-            padding: 20px;
-            background-color: #eeeff9;
-            border:5px solid;
-            border-color:#4a5d70;
-            margin: 10px;
-            border-radius:7px;
-            margin-bottom:30px;
-            text-align: left;
-        }
-
-        .the-end{
-        	margin-bottom:50px;
-        }
-         .listen{
-            display:inline-flex;
-            margin-bottom:50px;
-            margin-left:45%;
-            margin-right:45%;
-
-        }
-        .spotify{
-            color:#4a5d70;
-            padding-top:12px;
-
-        }
-        .listen-now{
-            font-size:20px;
-            padding-right:5px;
-        }
-		@media only screen and (max-width: 768px){
-            body{
-                justify-content: center;
-                text-align: center;
-            }
-            a:hover{
-				color:#5d719f;
-			}
-            .nav-bar-list{
-                background-color:#243e6b;
-                margin:0.75%;
-                text-align: center;
-                width:650px;
-                height:50px;
-                padding-top:15px;
-            }
-            .nav-bar {
-                flex-direction: column;
-                display:flex;
-                padding-top:15px;
-                margin:auto;
-                padding-left:0%;
-            }
-            .nav-bar-link{
-        		color:#c5dfff;
-        	}
-
-            .main-header-title{
-                text-align: center;
-                padding-top:0%;
-                width:650px;
-                margin:auto;
-            }
-             .listen{
-                margin-left:20%;
-                margin-right:20%;
-            }
-
-        @media only screen and (max-width: 600px){
-        	
-        	body{
-        		justify-content: center;
-        		text-align: center;
-        	}
-        	a:hover{
-				color:#5d719f;
-			}
-        	.nav-bar-list{
-        		background-color:#243e6b;
-        		margin:0.75%;
-        		text-align: center;
-        		width:500px;
-        		height:50px;
-        		padding-top:15px;
-        	}
-        	.nav-bar-link{
-        		color:#c5dfff;
-        	}
-        	.nav-bar {
-        		flex-direction: column;
-        		display:flex;
-        		margin-left:0%;
-        		padding-left: 0%;
-        	}
-        	.nav-div{
-        		width:90%;
-        		margin:auto;
-        	}
-        	.main-header-title{
-        		text-align: center;
-        		width:500px;
-        		margin-left:6%;
-        		margin-top:5%;
-        	}
-        	.listen{
-        		margin-left:5%;
-        	}
-        	.box{
-        		flex-direction:column;
-        		justify-content: center;
-        		padding-left:5%;
-        	}
-        	.card{
-        		width:500px;
-        	}
-        	 .listen{
-                margin-left:20%;
-                margin-right:20%;
-            }
-
-        	@media only screen and (max-width: 550px) {
-            body{
-                justify-content:center;
-                text-align:center;
-            }
-            .nav-bar-list{
-                background-color:#243e6b;
-                text-align:center;
-                height:50px;
-                width:450px;
-            }
-            .nav-bar{
-                flex-direction:column;
-                display:flex;
-                margin:auto;
-                padding-top:15px;
-            }
-            .main-header-title{
-                text-align:center;
-                width:450px;
-                padding-top:18%;
-                margin:auto;
-            }
-            .box{
-            	padding-left:5%;
-            }
-            .card{
-            	width:450px;
-            }
-            .listen{
-                margin-left:20%;
-                margin-right:20%;
-            }
-
-
-
-            @media only screen and (max-width: 480px){
-
-        	body{
-        		justify-content:center;
-        		text-align:center;
-        	}
-        	.nav-bar-list{
-        		background-color:#243e6b;
-        		text-align:center;
-        		height:50px;
-        		width:380px;
-        	}
-        	.nav-bar{
-        		flex-direction:column;
-        		display:flex;
-                margin:auto;
-                padding-top:15px;
-        	}
-        	.main-header-title{
-        		text-align:center;
-        		width:380px;
-        		padding-top:5%;
-                margin:auto;
-        	}
-        	.card{
-        		width:380px;
-        	}
-        	@media only screen and (max-width:438px){
-            .box{
-                padding-left:2%;
-            }
-        }
- 
-        	@media only screen and (max-width: 400px){
-
-            body{
-                justify-content:center;
-                text-align:center;
-            }
-            .nav-bar-list{
-                background-color:#243e6b;
-                text-align:center;
-                height:50px;
-                padding-top:15px;
-                width:350px;
-            }
-            .nav-bar{
-                flex-direction:column;
-                display:flex;
-                margin:auto;
-            }
-            .main-header-title{
-                text-align:center;
-                width:350px;
-                padding-top:10%;
-                margin:auto;
-            }
-            .card{
-            	width:350px;
-            }
-            .box{
-            	padding-left:2%;
-            }
-          
-        
-
-
-	</style>
+    <link rel="stylesheet" href="journey-style.css">
 </head>
 <body>
 
-	<div class= main-header>
-		<div class="nav-div">
+	<div class="nav-div">
             <ul class="nav-bar"> 
                 <li class="nav-bar-list"><a
                 class="nav-bar-link" href="index.html">Home</a></li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="favorites.html"> Personal Favorites</a></li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="journey.html">Mac Miller's Journey</a></li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="foundation.html">Donate</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="tattoo.html">Tattoos</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="mental-health.html">Mental Health</a></li>
             </ul>
         </div>
+	<div class= main-header>
         <div class= main-header-title> <strong>Mac Miller and How His Music Soothes My Soul</strong>
 		</div>
 	</div>
 	
 	<div class="text">
 		<div class="header"><strong>Before The Fame</strong></div>
-		<div class="intro"> Malcom James McCormick (Mac Miller) was born in Pittsburgh, Pennsylvania on January 19, 1992 to Karen Meyers and Mark McCormick. Him and his older brother, Miller, grew up in a Jewish houselhold. By 1998 at the age of six, Mac Miller was a self-taught musician who could play piano, guitar, drums, and bass. In 2007, he discovered hip-hop and fell in love. He started making mixtapes and originally went by the name EZ Mac.</div>
+		<div class="intro"> Malcolm James McCormick (Mac Miller) was born in Pittsburgh, Pennsylvania on January 19, 1992, to Karen Meyers and Mark McCormick. He and his older brother, Miller, grew up in a Jewish household. By 1998 at the age of six, Mac Miller was a self-taught musician who could play piano, guitar, drums, and bass. In 2007, he discovered hip-hop and fell in love. He started making mixtapes and originally went by the name EZ Mac.</div>
 	
 		<div class="header"><strong>The Breakthrough</strong></div>
-		<div class="breakthrough"> 2010 was the kick-off of Mac's career. He established himself as Mac Miller and at the 2010 Pittsbrugh Hip Hop Awards, he won 21 & Under of the Year and Best Hip Gop Video. Shortly after, Miller signed with Rostrum Records in the lead-up to his fourth mix tape, "K.I.D.S.". In 2011, he released a fith mixtap "Best Day Ever" and its singlel "Donald Trump" was his first song to appear on the US Billboard Hot 100 at number 75. After this, his songs started popping up on the US Billboard much more frequently.</div>
+		<div class="breakthrough"> 2010 was the kick-off of Mac's career. He established himself as Mac Miller and at the 2010 Pittsburgh Hip Hop Awards, he won 21 & Under of the Year and Best Hip Gop Video. Shortly after, Miller signed with Rostrum Records in the lead-up to his fourth mixtape, "K.I.D.S.". In 2011, he released a fifth mixtape "Best Day Ever" and it's single "Donald Trump" was his first song to appear on the US Billboard Hot 100 at number 75. After this, his songs started popping up on the US Billboard much more frequently.</div>
 		<div class= "box-title"><strong>All of Mac's Creations</strong>
 		</div>
 
@@ -372,7 +72,7 @@
 	</div>
 	<div class="text">
 		<div class="header"><strong>The End Point</strong></div>
-		<div class="the-end">Unfortunetly, Mac Miller's creative reign came to an end too soon. On September 7, 2018, Miller passed away from an accidental overdose in his home. He had a lovely Jewish funeral and was burried at Homewood Cemetary in his home town of Pittsbourgh.</div>
+		<div class="the-end">Unfortunetly, Mac Miller's creative reign came to an end too soon. On September 7, 2018, Miller passed away from an accidental overdose in his home. He had a lovely Jewish funeral and was burried at Homewood Cemetary in his home town of Pittsburgh.</div>
 	</div>
 	<div class=listen>
         <p class=listen-now>Listen Now</p>
