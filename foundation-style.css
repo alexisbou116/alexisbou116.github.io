@@ -12,9 +12,10 @@
 			text-decoration: none;
 		}
 		a:hover{
-			color:#5d719f;
-		}.main-header{
-			background: url("imgs/mac-smile.jpg") top;
+			color:#8197b8;     
+		}
+        .main-header{
+			background: url("imgs/mac-stage.jpg") top;
 			height: 500px;
 			background-size: cover;
 			margin:0%;
@@ -26,7 +27,7 @@
 		.nav-bar{
 			list-style-type: none;
 			display:flex;
-			margin-left: 46%;
+			margin-left: 48%;
 
 		}
 		.nav-bar-link{
@@ -48,14 +49,14 @@
 		.text{
 			margin:20px;
 			font-size:18px;
-			text-align: center;
+			text-align: left;
 			margin-bottom:50px;
 		}
 		 .header{
         	color:#243e6b;
 			font-size:30px;
 			margin:20px;
-			text-align: center;
+			text-align: left;
         }
         .img{
         	max-width: 100%;
@@ -66,12 +67,11 @@
             color: #eeeff9;
             padding-top:10px;
             padding-bottom: 10px;
-            margin-left: 35%;
-            margin-right: 35%;
+            margin-left: 40%;
+            margin-right: 40%;
             border-radius: 5px;
             text-align:center;
             margin-bottom:45px;
-            font-size: 40px;
             justify-content: center;
         }
          .listen{
@@ -90,6 +90,7 @@
             font-size:20px;
             padding-right:5px;
         }
+
 		@media only screen and (max-width: 768px){
             body{
                 justify-content: center;
@@ -178,8 +179,9 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
+                height:40px;
                 width:450px;
+                padding-top:20px;
             }
             .nav-bar{
                 flex-direction:column;
@@ -213,8 +215,9 @@
         	.nav-bar-list{
         		background-color:#243e6b;
         		text-align:center;
-        		height:50px;
+        		height:35px;
         		width:380px;
+                padding-top:15px;
         	}
         	.nav-bar{
         		flex-direction:column;
@@ -241,8 +244,8 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
-                padding-top:30px;
+                height:35px;
+                padding-top:15px;
                 width:350px;
             }
             .nav-bar{
