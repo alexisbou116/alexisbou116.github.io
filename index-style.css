@@ -12,11 +12,11 @@
 			text-decoration: none;
 		}
 		a:hover{
-			color:#5d719f;
+			color:#8197b8;
 		}
 		
 		.main-header{
-			background: url("imgs/mac-flowers-2.jpg") top;
+			background: url("imgs/mac-flowers.jpg") top;
 			height: 500px;
 			background-size: cover;
 			margin:0%;
@@ -28,7 +28,7 @@
 		.nav-bar{
 			list-style-type: none;
 			display:flex;
-			margin-left:46%;
+			margin-left:48%;
 
 		}
 		.nav-bar-link{
@@ -71,6 +71,9 @@
             border-radius:7px;
             margin-bottom:30px;
             text-align: center;
+        }
+        .img:hover{
+            opacity: .5;
         }
         .button{
         	display: block;
@@ -227,8 +230,9 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
+                height:40px;
                 width:450px;
+                padding-top:20px;
             }
             .nav-bar{
                 flex-direction:column;
@@ -278,14 +282,14 @@
         	.nav-bar-list{
         		background-color:#243e6b;
         		text-align:center;
-        		height:50px;
+        		height:35px;
         		width:380px;
+                padding-top:15px;
         	}
         	.nav-bar{
         		flex-direction:column;
         		display:flex;
                 margin:auto;
-                padding-top:30px;
         	}
         	.main-header-title{
         		text-align:center;
@@ -333,8 +337,8 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
-                padding-top:30px;
+                height:35px;
+                padding-top:15px;
                 width:350px;
             }
             .nav-bar{
