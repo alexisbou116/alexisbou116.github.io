@@ -12,7 +12,7 @@
 			text-decoration: none;
 		}
 		a:hover{
-			color:#5d719f;
+			color:#8197b8;
 		}
 		.img-1:hover{
 			opacity: .5;
@@ -55,7 +55,7 @@
 		.nav-bar{
 			list-style-type: none;
 			display:flex;
-			margin-left:46%;
+			margin-left:48%;
 
 		}
 		.nav-bar-link{
@@ -304,8 +304,9 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
+                height:40px;
                 width:450px;
+                padding-top:20px;
             }
             .nav-bar{
                 flex-direction:column;
@@ -320,6 +321,47 @@
                 margin:auto;
             }
         }
+        @media only screen and (max-width: 515px){
+            .grid{
+            width:320px;
+            }
+            .img-1{
+            width: 100px;
+            height:100px;
+            }
+            .img-2{
+            width: 100px;
+            height:100px;
+            }
+            .img-3{
+            width: 100px;
+            height:100px;
+            }
+            .img-4{
+            width: 100px;
+            height:100px;
+            }
+            .img-5{
+            width: 100px;
+            height:100px;
+            }
+            .img-6{
+            width: 100px;
+            height:100px;
+            }
+            .img-7{
+            width: 100px;
+            height:100px;
+            }
+            .img-8{
+            width: 100px;
+            height:100px;
+            }
+            .img-9{
+            width: 100px;
+            height:100px;
+            }
+        }
 
         @media only screen and (max-width: 480px){
 
@@ -330,8 +372,9 @@
         	.nav-bar-list{
         		background-color:#243e6b;
         		text-align:center;
-        		height:50px;
+        		height:35px;
         		width:380px;
+                padding-top:15px;
         	}
         	.nav-bar{
         		flex-direction:column;
@@ -395,8 +438,8 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
-                padding-top:30px;
+                height:35px;
+                padding-top:15px;
                 width:350px;
             }
             .nav-bar{
