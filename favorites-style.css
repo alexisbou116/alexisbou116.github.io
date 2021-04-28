@@ -11,11 +11,11 @@
 			display:block;
 		}
 		a:hover{
-			color:#5d719f;
+			color:#8197b8;
 		}
 		
 		.main-header{
-			background: url("imgs/mac-hat.png") top;
+			background: url("imgs/mac-dark-3.jpg") top;
 			height: 500px;
 			background-size: cover;
 			margin:0px;
@@ -27,9 +27,9 @@
 		.nav-bar{
 			list-style-type: none;
 			display:flex;
-			margin-left: 46%;
-			margin-top:0.5%;
-			margin-bottom:0.5%;
+			margin-left: 48%;
+			margin-top:0.4%;
+			margin-bottom:0.4%;
 
 		}
 		.nav-bar-link{
@@ -62,6 +62,9 @@
 			text-align: left;
 			margin-left: 22%;
 		}
+        .song-link{
+            color:#243e6b;
+        }
 		.album-header{
 			color:#243e6b;
 			font-size:30px;
@@ -209,8 +212,9 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:80px;
+                height:60px;
                 width:450px;
+                padding-top:10px;
             }
             .nav-bar{
                 flex-direction:column;
@@ -242,8 +246,9 @@
         	.nav-bar-list{
         		background-color:#243e6b;
         		text-align:center;
-        		height:80px;
+        		height:50px;
         		width:380px;
+                padding-top:5px;
         	}
         	.nav-bar{
         		flex-direction:column;
@@ -272,8 +277,9 @@
         	.nav-bar-list{
         		background-color:#243e6b;
         		text-align:center;
-        		height:80px;
+        		height:50px;
         		width:350px;
+                padding-top:5px;
         	}
         	.nav-bar{
         		flex-direction:column;
