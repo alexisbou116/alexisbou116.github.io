@@ -12,7 +12,7 @@
 			text-decoration: none;
 		}
 		a:hover{
-			color:#c5dfff;
+			color:#8197b8;
 		}
 		
 		.main-header{
@@ -28,7 +28,7 @@
 		.nav-bar{
 			list-style-type: none;
 			display:flex;
-			margin-left: 46%;
+			margin-left: 48%;
 
 		}
 		.nav-bar-link{
@@ -86,6 +86,9 @@
             border-radius:7px;
             margin-bottom:30px;
             text-align: left;
+        }
+        .album-link{
+            color:#243e6b;
         }
 
         .the-end{
@@ -186,8 +189,9 @@
         	.box{
         		flex-direction:column;
                 padding-left:5%;
-                margin-right:0%
-                max-width:450px;
+                margin-right:0%;
+                margin-left:0%;
+                width:200px;
         	}
             .card{
                 width:450px;
@@ -205,8 +209,9 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
+                height:40px;
                 width:450px;
+                padding-top:20px;
             }
             .nav-bar{
                 flex-direction:column;
@@ -243,8 +248,9 @@
         	.nav-bar-list{
         		background-color:#243e6b;
         		text-align:center;
-        		height:50px;
+        		height:35px;
         		width:380px;
+                padding-top:15px;
         	}
         	.nav-bar{
         		flex-direction:column;
@@ -261,6 +267,10 @@
         	.card{
         		width:350px;
         	}
+            .box{
+                width:200px;
+                margin-left:0%;
+            }
         	@media only screen and (max-width:438px){
             .box{
                 padding-left:0%;
@@ -276,8 +286,8 @@
             .nav-bar-list{
                 background-color:#243e6b;
                 text-align:center;
-                height:50px;
-                padding-top:30px;
+                height:35px;
+                padding-top:15px;
                 width:350px;
                 padding-left:0%;
             }
