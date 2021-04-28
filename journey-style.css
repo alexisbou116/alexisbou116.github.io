@@ -90,6 +90,9 @@
         .album-link{
             color:#243e6b;
         }
+        .card-title{
+            text-align: center;
+        }
 
         .the-end{
         	margin-bottom:50px;
